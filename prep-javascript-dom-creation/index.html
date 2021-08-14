@@ -12,12 +12,16 @@
 
   </div>
   <script>
-    var $container = document.querySelector('.container');
+    var $container = document.querySelector('#container');
+    // console.log(.container);
 
 var $heading = document.createElement('h1');
-$heading.innerHTML = 'Hello World!';
+$heading.textContent = 'Hello World!';
 
-document.body.appendChild($heading);
+// console.log($heading);
+// // $heading.innerHTML = $container;
+
+$container.appendChild($heading);
   </script>
 </body>
 
